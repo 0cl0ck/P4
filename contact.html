@@ -100,7 +100,12 @@
               >
                 <div class="form-group">
                   <label> Nom </label>
-                  <input id="name" class="form-control" required />
+                  <input
+                    id="name"
+                    class="form-control"
+                    required
+                    aria-label="Nom"
+                  />
                 </div>
                 <div class="form-group">
                   <label> Adresse email </label>
@@ -109,6 +114,7 @@
                     class="form-control"
                     type="email"
                     required
+                    aria-label="Adresse email"
                   />
                 </div>
                 <div class="form-group">
@@ -118,6 +124,7 @@
                     type="email"
                     required
                     id="input_504"
+                    aria-label="Comment nous avez vous connu?"
                   />
                 </div>
                 <div class="form-group">
@@ -130,6 +137,8 @@
                     rows="4"
                     cols="50"
                     required
+                    aria-label="Brief de votre projet (Ajoutez autant de détails que
+                    nécessaire)"
                   ></textarea>
                 </div>
                 <button
