@@ -343,7 +343,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-  background: transparent;
+  background: lightblue;
 }
 
 .navbar-toggle {
@@ -373,6 +373,23 @@ a:hover {
 
 .text-center {
   font-size: 15px;
+}
+
+blockquote p {
+  font-size: 15px;
+}
+
+.text-center-footer {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+#footer-link .footer-link-contact {
+  color: #000000 !important;
+}
+
+#footer-link .footer-link-contact:hover {
+  color: blue !important;
 }
 
 .h2-text {
@@ -890,7 +907,7 @@ h4 {
   margin-bottom: 1em;
 }
 
-.footer-link a {
+#bloc-8 .text-center .black a {
   color: #000000;
 }
 
