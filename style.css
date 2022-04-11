@@ -396,6 +396,10 @@ blockquote p {
   text-align: center;
 }
 
+.navbar-brand img {
+  filter: grayscale(100%);
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
