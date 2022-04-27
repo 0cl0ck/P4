@@ -474,7 +474,7 @@ nav .caret {
 }
 
 .mg-md {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -783,10 +783,6 @@ h4 {
   color: #ffffff !important;
 }
 
-.portfolio-thumb {
-  margin-bottom: 24px;
-}
-
 .portfolio-row {
   margin-bottom: 25px;
   margin-top: 20px;
@@ -911,8 +907,21 @@ h4 {
   margin-bottom: 1em;
 }
 
-#bloc-8 .text-center .black a {
-  color: #000000;
+.btn:focus {
+  border: #000000 2px solid;
+  background-color: lightblue;
+}
+
+a:focus {
+  background-color: lightblue;
+}
+
+.col-sm-6 a:focus {
+  border: #000000 3px solid;
+}
+
+.social span:focus {
+  background-color: lightblue;
 }
 
 @media (max-width: 1024px) {
