@@ -944,9 +944,6 @@ a:focus {
     margin-bottom: 1em;
   }
 
-  .col-sm-6 img {
-    height: 25em;
-  }
   .row-no-gutters {
     display: flex;
     justify-content: center;
